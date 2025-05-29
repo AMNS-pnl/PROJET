@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-struct maison{
+struct Maison{
     string cle;
     string type;
     string standing;
@@ -11,6 +11,6 @@ struct maison{
     
 };
 struct bucket{
-    maison*m;
+    Maison*m;
     bucket*suiv;
 };
